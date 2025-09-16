@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "tokens": "node ./scripts/extract-figma-tokens.mjs",
+    "export:hero": "node ./scripts/export-figma-hero.mjs"
   },
   "dependencies": {
     "react": "19.1.0",

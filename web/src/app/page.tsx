@@ -13,13 +13,23 @@ export default function Home() {
       </header>
 
       <main>
-        <section className="max-w-6xl mx-auto px-6 py-20">
-          <h1 className="text-3xl md:text-5xl font-bold tracking-tight">
-            Website Mockup → Implementation
-          </h1>
-          <p className="mt-4 text-base md:text-lg text-black/70 dark:text-white/70">
-            Placeholders are ready. We’ll wire these to your Figma assets next.
-          </p>
+        <section className="max-w-6xl mx-auto px-6 py-20 grid md:grid-cols-2 items-center gap-8">
+          <div>
+            <h1 className="text-3xl md:text-5xl font-bold tracking-tight" style={{ color: "var(--brand-1)" }}>
+              Paper Planes, Legos & Everything in Between
+            </h1>
+            <p className="mt-4 text-base md:text-lg" style={{ color: "var(--brand-5)" }}>
+              Starting from your mockup and Figma assets, implemented with Next.js + Tailwind.
+            </p>
+            <div className="mt-6 flex gap-3">
+              <a href="#work" className="px-4 py-2 rounded-md text-white" style={{ background: "var(--brand-2)" }}>View Work</a>
+              <a href="#contact" className="px-4 py-2 rounded-md border" style={{ borderColor: "var(--brand-2)" }}>Contact</a>
+            </div>
+          </div>
+          <div className="relative aspect-[4/3] w-full">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
+            <img src="/assets/hero.png" alt="Hero" className="w-full h-full object-cover rounded-lg border border-black/10 dark:border-white/10" />
+          </div>
         </section>
 
         <section id="work" className="max-w-6xl mx-auto px-6 py-12 grid grid-cols-1 md:grid-cols-3 gap-6">

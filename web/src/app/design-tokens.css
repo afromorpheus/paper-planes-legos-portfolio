@@ -1,0 +1,25 @@
+/* Generated from Figma export. Do not edit manually. */
+:root {
+  --brand-1: #061137;
+  --brand-2: #f1c62e;
+  --brand-3: #fffef9;
+  --brand-4: #00bfed;
+  --brand-5: #211369;
+  --brand-6: #436140;
+  --brand-7: #991552;
+  --brand-8: #f66247;
+  --font-primary: "Nixie One";
+  --text-base-size: 24px;
+}
+
+@theme inline {
+  --color-brand-1: var(--brand-1);
+  --color-brand-2: var(--brand-2);
+  --color-brand-3: var(--brand-3);
+  --color-brand-4: var(--brand-4);
+  --color-brand-5: var(--brand-5);
+  --color-brand-6: var(--brand-6);
+  --color-brand-7: var(--brand-7);
+  --color-brand-8: var(--brand-8);
+  --font-sans: var(--font-primary);
+}
